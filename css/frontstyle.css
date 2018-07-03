@@ -1,0 +1,38 @@
+/* Stefanie Ochoa | Last Updated: 7/3/18 | Front Page StyleSheet | Current Thing To Do: Set up div styles */ 
+
+body{
+	background-image:url('background3.png');
+	opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+/* background 2 = NO */ 
+/* background = NO */ 
+/* font-family: 'Abel', sans-serif;
+font-family: 'Sacramento', cursive; */ 
+
+#Welcome{
+		/*background-color: white;*/ 
+		position: absolute; 
+		/*height: 10%; 
+		width: 30%; */
+		top: -8%;
+		left: 39%;
+		font-family: 'Sacramento', cursive; 
+		font-size: 600%;
+		color: white; 
+}
+
+.button{
+	
+	width: 200px;
+	height: 200px; 
+	position:absolute; 
+	top: 35%;
+	left:45%;
+	
+}
